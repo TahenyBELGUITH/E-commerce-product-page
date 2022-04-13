@@ -21,7 +21,7 @@
 
 # Overview
 
-<video width="320" height="240" controls>
+<video align="center" controls>
   <source src="./video/record.mp4" type="video/mp4">
 </video><br><br>
 
