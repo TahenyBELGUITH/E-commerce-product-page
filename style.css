@@ -71,6 +71,11 @@ nav ul {
   font-weight: 700;
 }
 
+.header .left h2 a {
+  text-decoration: none;
+  color: hsl(26, 100%, 55%);
+}
+
 .header .right{
   justify-content: center;
   align-items: center;
@@ -83,6 +88,10 @@ nav ul {
 
 .header .right h2 {
   font-size: 16px;
+}
+
+.content-wrapper {
+  flex-direction: column;
 }
 
 .slider {
@@ -225,4 +234,62 @@ img {vertical-align: middle;}
 
 .content-body button i {
   padding-right: 13px;
+}
+
+footer {
+  line-height: 30px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(26, 100%, 55%);
+}
+
+@media only screen and (min-width: 768px) and (max-width : 1440px) {
+  .display-inline-block {
+    display: flex;
+  }
+
+  .header {
+    padding: 2rem 7rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  .left #menu {
+    display: none;
+  }
+
+  .left ul {
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  .left ul li {
+    margin-left: 1rem;
+  }
+
+  .left ul li:hover {
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+  }
+
+  .content-wrapper{
+    padding: 3rem;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-body,
+  .slider {
+    width: 40%;
+  }
+  
+  footer {
+    font-size: 16px;
+  }
+
 }

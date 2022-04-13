@@ -23,10 +23,13 @@
 
 <p align="center">
   <img src="images/shot.png"/>
-</p><br>
+</p><br><br>
 <p align="center">
   <img src="images/shot2.png"/>
-</p>
+</p><br><br>
+<p align="center">
+  <img src="images/shot3.PNG"/>
+</p><br><br>
 
 ## Built with
 
