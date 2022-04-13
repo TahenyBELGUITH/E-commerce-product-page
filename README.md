@@ -34,7 +34,7 @@
 
 ## Live demo( IF AVAILABLE 😊 )
 
-[Live Demo](https://tahenybelguith.github.io/Frontend-Mentor---QR-code-component/) 
+[Live Demo](https://tahenybelguith.github.io/E-commerce-product-page/) 
 
 ## Getting Started
 
@@ -49,7 +49,7 @@
 ### Setup
 
 - git init
-- git clone git@github.com:TahenyBELGUITH/Frontend-Mentor---QR-code-component.git
+- git clone git@github.com:TahenyBELGUITH/E-commerce-product-page.git
 
 ## Author:
 
