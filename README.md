@@ -23,6 +23,9 @@
 
 <p align="center">
   <img src="images/shot.png"/>
+</p><br>
+<p align="center">
+  <img src="images/shot2.png"/>
 </p>
 
 ## Built with
