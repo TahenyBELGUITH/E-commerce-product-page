@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1a9dfed18f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>E-commerce Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav id="nav-bar" class="display-none">
+      <img id="close-btn" src="./images/icon-close.svg" alt="close icon">
+      <ul id="list" class="display-flex">
+        <li><a href="#"></a>Collections</li>
+        <li><a href="#"></a>Men</li>
+        <li><a href="#"></a>Women</li>
+        <li><a href="#"></a>About</li>
+        <li><a href="#"></a>Contact</li>
+      </ul>
+    </nav>
+    <section class="header display-flex width-100">
+      <div class="left display-flex">
+        <img id="menu" src="./images/icon-menu.svg" alt="menu icon">
+        <h2><a href="index.html">SNEAKERS</a></h2>
+        <ul id="list" class="display-none display-inline-block">
+          <li><a href="#"></a>Collections</li>
+          <li><a href="#"></a>Men</li>
+          <li><a href="#"></a>Women</li>
+          <li><a href="#"></a>About</li>
+          <li><a href="#"></a>Contact</li>
+        </ul>
+      </div>
+      <div class="right display-flex">
+        <img src="./images/icon-cart.svg" alt="menu icon">
+        <img src="./images/image-avatar.png" alt="menu icon">
+      </div>
+    </section>
+
+    <section class="content-wrapper display-flex">
+      <div class="slider">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./images/image-product-1.jpg" class="width-100">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./images/image-product-2.jpg" class="width-100">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./images/image-product-3.jpg" class="width-100">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./images/image-product-4.jpg" class="width-100">
+          </div>
+
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+      </div>
+
+      <div class="content-body display-flex">
+        <h5>SNEAKERS COMPANY</h5>
+        <h2>Fall Limited Edition <br> Sneakers</h2>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole.
+          They'll
+          withstand everything the weather can offer</p>
+        <div class="price width-100 display-flex">
+          <div class="left-price display-flex">
+            <span class="span-total">$125.000</span>
+            <span class="span-discount">50%</span>
+          </div>
+          <span class="span-price-without-discount">$250.000</span>
+        </div>
+        <div class="operator width-100 display-flex">
+          <i class="fa-solid fa-minus"></i>
+          120
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <button class="width-100 display-flex" type="submit"> <i class="fa-solid fa-cart-arrow-down"></i>Add to
+          cart</button>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    Challenge by
+    <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>.
+    Coded by
+    <a href="https://github.com/TahenyBELGUITH">Taheny BELGUITH</a>.
+  </footer>
+</body>
+
+</html>
